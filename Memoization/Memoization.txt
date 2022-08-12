@@ -1,0 +1,16 @@
+The first indication that we are dealing with a DP problem is noticing overlapping sub-problems. Then, one has to decide what the trivially smallest input is. Depending on the implementation strategy to use, memoization (recursive) or tabulation (iterative), there are recipes that one can follow to address DP problems. For the memoization strategy, the most challenging step is to visualize the problem as a tree.
+
+“Dynamic Programming consists in simplifying a problem by breaking it down into simpler sub-problems recursively”
+The key advantage of using DP is that it is fast. 
+There are two key attributes that a problem must have in order for DP to be applicable: optimal substructure and overlapping sub-problems. 
+DP problems can be solved using two basic solution strategies: memoization and tabulation. 
+
+Memoization: 
+1.Make it work
+    visualize the problem as a tree (hard)
+    implement the tree using recursion
+    test it
+2.Make it efficient
+    add a memo object
+    add a base case to return memo values
+    store return values into the memo
